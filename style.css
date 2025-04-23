@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: #fae4d5;
+}
+
+header {
+  background-color: #fdc9a6;
+  color: #ff583a;
+  padding: 1rem;
+
+  text-align: left;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+h1 {
+  font-size: 6rem;
+  margin-bottom: 10px;
+}
+
+.sitat {
+  font-size: 4rem;
+  font-family: "Lucida Handwriting", cursive;
+  font-weight: 400;
+  line-height: 1.1;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.8);
+  position: relative;
+  margin: 5rem;
+}
+.sitat:before,
+.sitat:after {
+  font-size: 6rem;
+  line-height: 2.5rem;
+  position: absolute;
+}
+
+.sitat:before {
+  content: "“";
+  top: 0.25em;
+  left: -0.5em;
+}
+.sitat:after {
+  content: "”";
+  bottom: -0.1em;
+  margin-left: 0.1em;
+  position: absolute;
+}
+
+.kjelde {
+  font-weight: bold;
+}
+
+.verk {
+  font-style: italic;
+}
+
+button {
+  color: #ff583a;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-weight: 300;
+  font-size: 2rem;
+  position: relative;
+  margin: 1rem;
+}
